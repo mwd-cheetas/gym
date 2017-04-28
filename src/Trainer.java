@@ -1,11 +1,16 @@
 
 public abstract class Trainer {
+
 	protected int age;
 	protected String name;
 	protected int weight;
 	protected int experience;
 	protected String phone;
 	protected String email;
+	///////////
+	public int account=0;
+	protected String schedule=null;
+	protected String dietplan=null;
 public Trainer(int age,String name,int weight,int experience,String phone)
 {
 	this.age = age;
@@ -15,6 +20,12 @@ public Trainer(int age,String name,int weight,int experience,String phone)
 	this.name=name;
 	
 }
+public void addplan(String plan)
+{
+	this.dietplan=plan;
+}
+public void removeplan()
+{dietplan=null;}
 public void cls(){
 	for(int i=0;i<=7;i++){
 		System.out.println("");
@@ -27,6 +38,14 @@ public void viewtrainer()
 	System.out.println("Name: "+ name+"\t Age: "+age);
 	System.out.println("Weight: "+ weight+"\t Experience: "+ experience);
 	
+}
+public void addschedule(String sche)
+{
+	this.schedule=sche;
+}
+public void removeschedule()
+{
+	this.schedule=null;
 }
 }
  class FitnessTrainer extends Trainer
