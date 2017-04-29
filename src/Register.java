@@ -15,6 +15,7 @@ public class Register{
 		int indextrainer = Find.findtrainer(nn);
 		if (indextrainer!=-1) {
 			mm.trainers.get(indextrainer).comission+=1000;
+			mm.trainers.get(indextrainer).tt.add(me.trainees.get(Find.findtrainee(name)));
 			me.trainees.get(Find.findtrainee(name)).t=mm.trainers.get(indextrainer);
 		}
 		else {
