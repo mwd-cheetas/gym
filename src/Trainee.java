@@ -11,7 +11,7 @@ public abstract class Trainee {
 Trainer t;
 protected String name;
 protected int age;
-protected int weight;
+protected int weight; 
 protected String phone;
 protected String email;
 protected String pass = "123";
