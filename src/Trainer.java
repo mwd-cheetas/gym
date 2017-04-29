@@ -9,7 +9,7 @@ public abstract class Trainer {
 	protected String email;
 	protected String pass="123";
 	protected int comission=0;
-	///////////
+	/////////// 
 	public int account=0;
 	protected String schedule=null;
 	/////////////
