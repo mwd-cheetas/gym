@@ -15,7 +15,7 @@ public abstract class Trainer {
 	/////////////
 	List<Trainee> tt;
 	
-	protected  String dietplan="AA";
+	protected   String dietplan="AA";
 public Trainer(int age,String name,int weight,int experience,String phone)
 {
 	this.age = age;
