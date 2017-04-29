@@ -29,4 +29,4 @@ class Premium extends Trainee
 	{
 		super(name,age,weight,phone,email);
 	}
-}
+} 
