@@ -6,7 +6,6 @@ public abstract class Trainer {
 	protected int weight;
 	protected int experience;
 	protected String phone;
-	protected String email;
 	protected String pass="123";
 	protected int comission=0;
 	/////////// 
