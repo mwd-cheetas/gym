@@ -13,9 +13,9 @@ public abstract class Trainer {
 	public int account=0;
 	protected String schedule=null;
 	/////////////
-	List<Trainee> tt;
+	public List<Trainee> tt;
 	
-	protected   String dietplan="AA";
+	protected   String dietplan=null;
 public Trainer(int age,String name,int weight,int experience,String phone)
 {
 	this.age = age;

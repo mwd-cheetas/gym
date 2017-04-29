@@ -8,7 +8,7 @@ public abstract class Trainee {
 		this.phone=phone;
 		this.email=email;
 	}
-Trainer t;
+public Trainer t;
 protected String name;
 protected int age;
 protected int weight; 
@@ -31,7 +31,8 @@ public void viewschedule()
 		     else
 		     System.out.println(t.schedule);	
 }
-  }
+
+}
 /////////////////////////////////////
 
 
