@@ -1,4 +1,4 @@
-
+import java.util.List;
 public abstract class Trainer {
 
 	protected int age;
@@ -12,6 +12,8 @@ public abstract class Trainer {
 	///////////
 	public int account=0;
 	protected String schedule=null;
+	/////////////
+	List<Trainee> tt;
 	
 	protected String dietplan=null;
 public Trainer(int age,String name,int weight,int experience,String phone)
