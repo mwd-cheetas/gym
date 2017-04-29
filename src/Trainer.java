@@ -10,6 +10,7 @@ public abstract class Trainer {
 	///////////
 	public int account=0;
 	protected String schedule=null;
+	
 	protected String dietplan=null;
 public Trainer(int age,String name,int weight,int experience,String phone)
 {
