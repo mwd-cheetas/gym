@@ -1,6 +1,6 @@
 
 public abstract class Trainee {
-	public Trainee(String name,int age,int weight,String phone,String email)
+	public Trainee(String name,int age,int weight,String phone,String email) 
 	{
 		this.name=name;
 		this.age=age;

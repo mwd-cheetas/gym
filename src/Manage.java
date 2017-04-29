@@ -99,7 +99,7 @@ class ManageTrainee {
 	}
 	
 	}
-	public void removetrainer(String name)
+ 	public void removetrainer(String name)
 	{
 		for (int i = 0; i < trainees.size(); i++) {
 			if (trainees.get(i).name==name) {
